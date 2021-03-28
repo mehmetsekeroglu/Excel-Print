@@ -15,7 +15,6 @@ export default function Table() {
               <td>${person.ISIM}</td>
               <td>${person.SOYISIM}</td>
               <td>${person.YAS}</td>
-              <td>${person.ALDIGI_MAAS}</td>
               <td>${person.CINSIYETI}</td>
               </tr>`
            })
@@ -27,7 +26,6 @@ export default function Table() {
                   <th>ISIM</th>
                    <th>SOYISIM</th>
                    <th>YAS</th>
-                   <th>ALDIGI MAAS</th>
                    <th>CINSIYETI</th>
               </thead>
            <tbody id="table"></tbody>
